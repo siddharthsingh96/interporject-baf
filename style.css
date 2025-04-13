@@ -1,0 +1,140 @@
+/* body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  #calendar {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .time-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .time {
+    width: 80px;
+    font-weight: bold;
+  }
+  
+  .task {
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  
+  .task input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .save-btn {
+    background-color: #2a5298;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover {
+    background-color: #1d3a6d;
+  }
+  .past {
+    background-color: #e0e0e0;
+  }
+  
+  .present {
+    background-color: #ffdd99;
+  }
+  
+  .future {
+    background-color: #ccffcc;
+  }
+ 
+   */
+   
+   .day-card {
+    background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+    border-radius: 20px;
+    padding: 30px;
+    width: 360px;
+    margin: 30px auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+  .day-card:hover {
+    transform: translateY(-5px);
+  }
+  .day-title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .task-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .task-input input[type="time"],
+  .task-input input[type="text"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  .task-input button {
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .task-input button:hover {
+    background-color: #2575fc;
+  }
+  #taskList {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  #taskList li {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  #taskList li span {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+  }
+  
